@@ -1,0 +1,4 @@
+Utilizando el microcontrolador KL25z Cortex M0+, se muestrea una señal desde un generador de señales muestreando a 10KHz y utilizando la correlación, se encuentra el periodo de esa señal en milisegundos.
+El resultado es mandado por UART a Matlab para ser impreso constantemente.
+
+Link a video de demostración: https://photos.app.goo.gl/WEl9JxICWAK7zEB12
