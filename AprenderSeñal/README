@@ -1,0 +1,8 @@
+Utilizando el microcontrolador KL25z Cortex M0+ se implementó un código que almacena en un buffer una señal de entrada desde un generador de señales (muestreándola a 10Khz desde el módulo del ADC)  y comienza a comparar la señal almacenada con otras señales que se van muestreando constantemente.
+-Las señales de entrada se van comparando con la almacenada utilizando la correlación.
+-Al encontrar la misma señal que se almacenó, se enciende el LED RGB verde el microcontrolador.
+-Si no se encuentra la señal, el LED verde se apaga.
+-Para almacenar una nueva señal, se presiona un push buton conectado al microcontrolador por el módulo de GPIO.
+-El LED RGB rojo del microcontrolador se enciende mientras se está aprendiendo la señal.
+
+Link a video de demostración: https://photos.app.goo.gl/DHBMLkZMiwB0cJM32
