@@ -1,0 +1,8 @@
+Se implementó una función de convolución tanto en Matlab (sin utilizar el comando predeterminado) como en lenguaje C.
+
+-El script de matlab le pide al usuario que inserte valores de entrada (uno por uno) a convolucionar con el arreglo del sistema. Se regresará un error si se manda un número mayor a 8 bits. Se terminará el script si se manda un número negativo.
+-El script manda por UART este dato recibido hacia el microcontrolador KL25z Cortex M0+.
+-El microcontrolador regresa por UART hacia matlab el resultado de su convolución con el dato de entrada.
+-Matlab imprime el resultado de su convolución y el resultado de convolución desde el microcontrolador.
+
+Link a video de demostración: https://photos.app.goo.gl/ULUJrP2ZnjPg7ur32
