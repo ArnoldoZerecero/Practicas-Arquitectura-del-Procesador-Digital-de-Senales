@@ -1,0 +1,6 @@
+Se creó un ecualizador en en código c utilizando el microcontrolador KL25z Cortex M0+. 
+Primero se muestrea la música de un celular utilizando el módulo de ADC del microcontrolador en resolución de 12 bits. Para proteger la entrada del microcontrolador, la señal se pasa primero por un circuito de amplificación y offset armado con amplificadores operacionales, para tener una señal de entrada de entre 0 y 3.3v.
+Ya en el microcontrolador, se puede elegir entre 3 efectos de ecualizador: Bypass, eco o distorsión.
+La señal resultante ya con el efecto se saca por medio del módulo de DAC, mustreando a 10KHz, para ser escuchada por la bocina.
+
+Link de demostración: https://photos.app.goo.gl/KjOJLNNevQ4b9U8T2
