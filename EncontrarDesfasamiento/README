@@ -1,0 +1,4 @@
+Utilizando el microcontrolador KL25z Cortex M0+, se muestrean a 10 KHz, 2 señales utilizando 2 canales del módulo de ADC. Estas señales son idénticas entre sí, pero se encuentran desfasadas cierto tiempo.
+Utilizando la correlación, se encuentra el desfasamiento exacto entre las señales. Este resultado se manda por UART a Matlab para ser impreso constantemente.
+
+Link a video de demostración: https://photos.app.goo.gl/WEl9JxICWAK7zEB12
