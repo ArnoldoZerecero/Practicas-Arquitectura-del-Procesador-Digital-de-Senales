@@ -1,0 +1,1 @@
+Se elaboró en lenguaje C un driver que permite la ejecución de redes neuronales de cualquier tamaño, número de neuronas y número de capas utilizando arreglos de estructuras. Se implementó un caso de prueba simple para demostrar el funcionamiento de la red neuronal.
