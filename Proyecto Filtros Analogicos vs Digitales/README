@@ -2,9 +2,9 @@ El proyecto consiste en la elaboración de un ecualizador, primero utilizando ci
 
 Se introducirá una señal de audio, desde el cable auxiliar de un celular, a cada uno de los filtros, y se observará las modificaciones de sonido que cada filtro crea. Los filtros a diseñar y crear son:
 
-•	Pasa bajas, con frecuencia de corte de 1.2KHz. Permitirá amplificar los instrumentos bajos y agravar las voces de las canciones.
-•	Pasa altas, con frecuencia de corte de 6KHz. Permitirá que únicamente la voz y los instrumentos de altas frecuencias sean escuchados.
-•	Pasa bandas, con frecuencia de corte de entre 2KHz y 6 KHz. Atenuará tanto instrumentos bajos como voces e instrumentos de alta frecuencia, teniendo como resultado la identificación de instrumentos individuales que se encuentren dentro de estas frecuencias.
+-Pasa bajas, con frecuencia de corte de 1.2KHz. Permitirá amplificar los instrumentos bajos y agravar las voces de las canciones.
+-Pasa altas, con frecuencia de corte de 6KHz. Permitirá que únicamente la voz y los instrumentos de altas frecuencias sean escuchados.
+-Pasa bandas, con frecuencia de corte de entre 2KHz y 6 KHz. Atenuará tanto instrumentos bajos como voces e instrumentos de alta frecuencia, teniendo como resultado la identificación de instrumentos individuales que se encuentren dentro de estas frecuencias.
 
 Tras ser filtrada, la señal analógica será muestreada utilizando el módulo de ADC del microcontrolador KL25z Cortex M0+. La señal digital será mandada por UART a Matlab para ser graficada en tiempo real, mientras que el módulo de DAC del microcontrolador reproduce la señal muestreada mediante una bocina.
 
